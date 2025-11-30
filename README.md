@@ -25,7 +25,9 @@
 
 `ps` (Process Status) 명령어는 현재 시스템에서 실행 중인 프로세스의 상태를 **스냅샷** 찍듯이 보여줍니다. `top`과 달리 특정 시점의 상태를 정적으로 출력합니다.
 
-### 📸 실습 화면
+### 📸 실습 화면 (Screenshot)
+![ps command screenshot](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Gnometerminal_3.6.0.png/640px-Gnometerminal_3.6.0.png)
+*출처: Wikimedia Commons (Terminal execution example)*
 
 ### 💡 주요 옵션
 `ps` 명령어는 옵션에 따라 출력되는 정보가 달라집니다. 가장 많이 쓰는 옵션을 표로 정리했습니다.
@@ -41,11 +43,12 @@
 ```bash
 # 가장 표준적인 전체 프로세스 조회 방법
 $ ps -ef
+
 # 모든 프로세스 확인 (BSD 스타일)
 $ ps aux
 
 # 'python'이 들어간 프로세스만 검색
-$ ps -ef | grep python'''
+$ ps -ef | grep python
 
 ---------------------------------------------------------------------------------------
 
