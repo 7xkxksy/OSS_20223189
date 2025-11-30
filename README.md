@@ -7,6 +7,7 @@
 `top` 명령어는 시스템의 현재 상태와 프로세스들의 리소스(CPU, Memory) 사용량을 **실시간**으로 갱신하여 보여줍니다. 윈도우의 '작업 관리자'와 유사한 역할을 합니다.
 
 ### 📸 실습 화면
+<img width="1490" height="458" alt="스크린샷 2025-11-30 141615" src="https://github.com/user-attachments/assets/f4ef0758-4b49-45fe-a1b8-8cec666fae42" />
 
 
 ### 💡 주요 단축키
@@ -25,9 +26,8 @@
 
 `ps` (Process Status) 명령어는 현재 시스템에서 실행 중인 프로세스의 상태를 **스냅샷** 찍듯이 보여줍니다. `top`과 달리 특정 시점의 상태를 정적으로 출력합니다.
 
-### 📸 실습 화면 (Screenshot)
-![ps command screenshot](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Gnometerminal_3.6.0.png/640px-Gnometerminal_3.6.0.png)
-*출처: Wikimedia Commons (Terminal execution example)*
+### 📸 실습 화면 
+<img width="1457" height="197" alt="스크린샷 2025-11-30 141649" src="https://github.com/user-attachments/assets/faf5d8bc-c00b-4887-bfd4-d1174b1745f9" />
 
 ### 💡 주요 옵션
 `ps` 명령어는 옵션에 따라 출력되는 정보가 달라집니다. 가장 많이 쓰는 옵션을 표로 정리했습니다.
@@ -47,6 +47,7 @@
 `jobs` 명령어는 현재 쉘 세션에서 백그라운드로 실행 중이거나 중지된 **작업 목록**을 번호와 함께 보여줍니다.
 
 ### 📸 실습 화면 
+<img width="923" height="198" alt="스크린샷 2025-11-30 141722" src="https://github.com/user-attachments/assets/ee96394d-a502-4891-9353-a641a35d1d76" />
 
 ### 💡 작업 상태 및 제어
 `jobs` 출력 결과에 나오는 상태 값과 관련 기호/명령어에 대한 설명입니다.
@@ -66,6 +67,7 @@
 `kill` 명령어는 특정 프로세스(PID)에 **시그널**을 보내어 작업을 제어하거나 종료합니다. 응답하지 않는 프로그램을 강제로 닫을 때 주로 사용합니다.
 
 ### 📸 실습 화면 
+<img width="852" height="82" alt="스크린샷 2025-11-30 141744" src="https://github.com/user-attachments/assets/541a2790-06c7-46db-b88c-cb95c9742f65" />
 
 ### 💡 주요 시그널
 프로세스 종료 시 사용할 수 있는 시그널의 종류와 번호를 표로 정리했습니다.
